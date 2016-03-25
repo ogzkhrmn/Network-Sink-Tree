@@ -12,7 +12,8 @@ import java.awt.Color;
  * @author ogzkhrmn
  */
 public class Line {
-     final int x1; 
+
+    final int x1;
     final int y1;
     final int x2;
     final int y2;
@@ -34,6 +35,5 @@ public class Line {
     public void setColor(Color color) {
         this.color = color;
     }
-    
-                 
+
 }
