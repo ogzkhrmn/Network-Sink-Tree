@@ -265,6 +265,12 @@ public class MainClass extends javax.swing.JFrame {
                 if (part1==target||part2==target) {
                     finished = true;
                 }
+                MyButtons mbm = (MyButtons) buttonList.get("" + part1);
+            rbm = mbm.getRb();
+            rbm.setBackground(Color.ORANGE);
+            mbm = (MyButtons) buttonList.get("" + part2);
+            rbm = mbm.getRb();
+            rbm.setBackground(Color.ORANGE);
                 if ((i / 2) == 0) {
                     i++;
                 }
